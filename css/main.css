@@ -13,7 +13,7 @@ body * {
     font-style: italic; /* Guideline 1.4 Distinguishable 1.4.1 Use of Color G182 Ensuring that additional visual cues are available when text color differences are used to convey information  Kursive um Links für Farbblinde hervor zu heben*/
     font-weight: bolder; /* Guideline 1.4 Distinguishable 1.4.1 Use of Color G182 Ensuring that additional visual cues are available when text color differences are used to convey information  Fett um Links für Farbblinde hervor zu heben*/
     background-color: #a0a0a0;/* Guideline 1.4 Distinguishable 1.4.1 Use of Color G183 Using contrast ratio 3:1 with surrounding text and providing additional visual cues on focus for links or controls where color alone is used to identify them Kontrast 8.03*/
-	transform: translate(0%,-15%);
+	/*transform: translate(0%,-15%);*/
 }
 /* Guideline 1.4 Distinguishable 1.4.1 Use of Color Using CSS to change the presentation of a user interface component when it receives focus  C15 interaktive Elemente mittesl Hover Fokus hervorheben */
 /* Guideline 1.4 Distinguishable 1.4.1 Use of Color G182 Ensuring that additional visual cues are available when text color differences are used to convey information  Links durch Kursive Fette Schrift oder Schriftgrößer für Farbblinde hervor heben*/
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6{
 h1 span {
 	background: rgba(100,101,101,0.50);/* Guideline 1.4 Distinguishable 1.4.1 Use of Color G183 Using contrast ratio 3:1 with surrounding text and providing additional visual cues on focus for links or controls where color alone is used to identify them  Kontrast 5.74*/
 	color: #ffffff;/* Guideline 1.4 Distinguishable 1.4.1 Use of Color G183 Using contrast ratio 3:1 with surrounding text and providing additional visual cues on focus for links or controls where color alone is used to identify them Kontrast 5.74*/
-	transition: background 4s;
+	/*transition: background 4s;*/
 }
 
 #navigation li.ausgewaehlt {
@@ -174,7 +174,7 @@ h1 span {
 p {
 	text-align: justify;
 	line-height: 1.5;
-	hyphens: auto;
+	/*hyphens: auto;*/
 	font-size: 1.1em;
 }
 .sidebarContainer {
@@ -214,7 +214,7 @@ legend {
 	background-color: black;
 }
 .inhaltebilder:hover, .inhaltebilder:visited{
-	transform: scaleX(-1);
+	/*transform: scaleX(-1);*/
 }
 .skip-link { /* Guideline 2.4 Navigable 2.4.2 Bypass Blocks G1 Adding a link at the top of each page to goes directly to the main content --> */
 	margin: 0;
@@ -248,7 +248,7 @@ legend {
 	float: right;
 }
 .visually-hidden { /* Guideline 2.4 Navigable 2.4.4 Link Purpose (In Context) c7 Using CSS to hide a portion of the link text */
-	clip-path: inset(100%);
+	/*clip-path: inset(100%);*/
 	clip: rect(1px, 1px, 1px, 1px);
 	height: 1px;
 	overflow: hidden;
@@ -257,8 +257,8 @@ legend {
 	width: 1px;
 }
 .accessibly-hidden { /*  Guideline 2.5 Input Modalities 2.5.3 Label in Name G208 Including the text of the visible label as part of the accessible name */
-	clip: rect(0 0 0 0);
-	clip-path: inset(50%);
+	/*clip: rect(0 0 0 0);*/
+	/*clip-path: inset(50%);*/
 	height: 1px;
 	overflow: hidden;
 	position: absolute;
